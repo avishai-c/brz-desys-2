@@ -1,0 +1,11 @@
+{
+	"name": "@avishaic/vue-form-field-component",
+	"version": "0.0.0",
+	"publishConfig": {
+		"access": "public"
+	},
+	"dependencies": {
+		"@avishaic/vue-form-input-component": "^0.1.1",
+		"@avishaic/vue-form-label-component": "^0.1.1"
+	}
+}

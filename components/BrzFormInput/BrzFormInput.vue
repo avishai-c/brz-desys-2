@@ -6,7 +6,7 @@
 export default {
   name: "brz-input",
   props: {
-    type: {
+    inputType: {
       type: String,
       required: true,
     },

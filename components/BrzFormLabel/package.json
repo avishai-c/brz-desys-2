@@ -1,5 +1,5 @@
 {
-	"name": "@avishaic/vue-form-label-component",
+	"name": "@avishaic/brz-label",
 	"version": "0.1.1",
 	"publishConfig": {
 		"access": "public"

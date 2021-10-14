@@ -1,14 +1,20 @@
-import BrzInput from "./BrzFormInput.vue";
+import BrzFormField from "./BrzFormField.vue";
 import "../tailwind.css";
 
 export default {
   title: "Components/Input",
-  component: BrzInput,
+  component: BrzFormField,
   argTypes: {
-    type: {
+    inputType: {
       control: {
         type: "select",
         options: ["text", "email", "number", "phone", "password"],
+      },
+    },
+    layout: {
+      control: {
+        type: "select",
+        options: ["vertical", "horizontal"],
       },
     },
   },
@@ -16,11 +22,11 @@ export default {
 
 const Template = (args, { argTypes }) => ({
   props: Object.keys(argTypes),
-  components: { BrzInput },
-  template: '<brz-input v-bind="$props" />',
+  components: { BrzFormField },
+  template: '<brz-form-field v-bind="$props" />',
 });
 
 export const Text = Template.bind({});
 Text.args = {
-  type: "text",
+  inputType: "text",
 };

@@ -1,5 +1,5 @@
 {
-	"name": "@avishaic/vue-form-input-component",
+	"name": "@avishaic/brz-input",
 	"version": "0.1.1",
 	"publishConfig": {
 		"access": "public"
