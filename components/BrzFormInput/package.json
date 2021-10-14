@@ -1,0 +1,7 @@
+{
+    "name": "@avishaic/vue-form-input-component",
+		"version": "0.0.0",
+		"publishConfig": {
+			"access": "restricted"
+		} 
+}
